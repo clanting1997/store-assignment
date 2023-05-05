@@ -1,0 +1,265 @@
+{
+  "products": [
+      {
+          "title": "Summer Dress Salmon",
+          "brand": "Bella",
+          "description": "Introducing our stunning salmon-colored summer dress, the perfect addition to your warm weather wardrobe. Made from lightweight and breathable materials, this dress will keep you cool and comfortable all day long. The flattering cut is designed to accentuate your curves, while the vibrant salmon hue will make you stand out from the crowd. Whether you're heading to a beach party or a picnic in the park, this dress is the ultimate summer essential. Pair with sandals and a sun hat for a chic and effortless look.",
+          "image": "FH5296-0722_3528_1.png",
+          "price": 34.99,
+          "discountedPrice": 24.5,
+          "properties": {
+              "color": [
+                  "salmon",
+                  "pink"
+              ],
+              "fabric": [
+                  "cotton"
+              ]
+          },
+          "categories": [
+              "new",
+              "dresses",
+              "women"
+          ]
+      },
+      {
+          "title": "Dress Sally Emerald Green",
+          "brand": "American Dreams",
+          "description": "Experience the elegance and glamour of our American Dreams emerald green dress. Made with high-quality fabrics, this dress exudes luxury and sophistication. The striking emerald green color is sure to turn heads and make a statement at any event. The fitted bodice and flowing skirt create a flattering silhouette that will make you feel confident and beautiful. Perfect for a formal occasion or a night out on the town, this dress is the epitome of timeless style. Pair with heels and statement jewelry to complete the look and steal the show.",
+          "image": "americandreams-dress-sally-short-emerald-green.png",
+          "price": 49.99,
+          "properties": {
+              "color": [
+                  "green"
+              ],
+              "fabric": [
+                  "cotton"
+              ]
+          },
+          "categories": [
+              "new",
+              "dresses",
+              "women"
+          ]
+      },
+      {
+          "title": "Black Top Debby",
+          "brand": "Burberry",
+          "description": "Introducing our effortlessly chic black top with flared sleeves, the perfect addition to your wardrobe for any occasion. Made with soft and comfortable materials, this top features a trendy and feminine silhouette that is both flattering and comfortable. The flared sleeves add a touch of bohemian style to the classic black top, making it a versatile piece that can be dressed up or down. Pair with jeans and boots for a casual day look or dress it up with a skirt and heels for a night out. This top is a must-have for any fashion-forward wardrobe.",
+          "image": "1680269277-7474-top-debby-stripe-zwart-front.png",
+          "price": 69.95,
+          "properties": {
+              "color": [
+                  "black"
+              ],
+              "fabric": [
+                  "cotton",
+                  "lycra"
+              ]
+          },
+          "categories": [
+              "new",
+              "tops",
+              "women"
+          ]
+      },
+      {
+          "title": "Flower Umber Skirt Orange",
+          "brand": "American Dreams",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "2315-Flower-Umber-Orange-Voor-Small.webp",
+          "price": 32.5,
+          "properties": {
+              "color": [
+                  "orange",
+                  "red",
+                  "pink"
+              ],
+              "fabric": [
+                  "cotton"
+              ]
+          },
+          "categories": [
+              "new",
+              "skirts",
+              "women"
+          ]
+      },
+      {
+          "title": "Skirt Romi",
+          "brand": "Brunotti",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "brunotti-romy-women-skirt_1500x1500_136586.webp",
+          "price": 62,
+          "properties": {
+              "color": [
+                  "salmon",
+                  "red",
+                  "pink"
+              ],
+              "fabric": [
+                  "cotton"
+              ]
+          },
+          "categories": [
+              "new",
+              "skirts",
+              "women"
+          ]
+      },
+      {
+          "title": "Puffer Varsity Jacket",
+          "brand": "America Today",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "america today puffer-varsity-jacket-jem-men-brown-1312002333-450-f.webp",
+          "price": 95.5,
+          "properties": {
+              "color": [
+                  "brown"
+              ],
+              "fabric": [
+                  "polyester",
+                  "nylon"
+              ]
+          },
+          "categories": [
+              "jackets",
+              "men"
+          ]
+      },
+      {
+          "title": "WIP Arling Jacket",
+          "brand": "Carhartt",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "carhartt-wip-arling-jacket-bruin-00012869-11679735265.png.png",
+          "price": 120,
+          "properties": {
+              "color": [
+                  "brown",
+                  "beige"
+              ],
+              "fabric": [
+                  "cotton"
+              ]
+          },
+          "categories": [
+              "jackets",
+              "men"
+          ]
+      },
+      {
+          "title": "Denham Razor Jeans",
+          "brand": "Denham",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "denham-razor-clhw-denim-00013783-11679717250.png.png",
+          "price": 82.99,
+          "properties": {
+              "color": [
+                  "blue"
+              ],
+              "fabric": [
+                  "denim"
+              ]
+          },
+          "categories": [
+              "jeans",
+              "women"
+          ]
+      },
+      {
+          "title": "Light Blue Flared Jeans",
+          "brand": "Jeans Temple",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "flared jeans.webp",
+          "price": 52.5,
+          "properties": {
+              "color": [
+                  "blue"
+              ],
+              "fabric": [
+                  "denim"
+              ]
+          },
+          "categories": [
+              "jeans",
+              "women"
+          ]
+      },
+      {
+          "title": "Outdoor Jacket",
+          "brand": "Erima",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "erima jacket.webp",
+          "price": 75.5,
+          "properties": {
+              "color": [
+                  "gray",
+                  "green"
+              ],
+              "fabric": [
+                  "polyester"
+              ]
+          },
+          "categories": [
+              "jackets",
+              "women"
+          ]
+      },
+      {
+          "title": "Outdoor Jacket",
+          "brand": "Erima",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "erima jacket.webp",
+          "price": 75.5,
+          "properties": {
+              "color": [
+                  "gray",
+                  "green"
+              ],
+              "fabric": [
+                  "polyester"
+              ]
+          },
+          "categories": [
+              "jackets",
+              "women"
+          ]
+      },
+      {
+          "title": "Pantera White",
+          "brand": "Wave",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "Mizuno - wave panthera white.png",
+          "price": 99.99,
+          "properties": {
+              "color": [
+                  "white",
+                  "blue",
+                  "red"
+              ]
+          },
+          "categories": [
+              "shoes",
+              "women",
+              "men"
+          ]
+      },
+      {
+          "title": "React Green",
+          "brand": "Nike",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "Nike react Green.webp",
+          "price": 149.95,
+          "properties": {
+              "color": [
+                  "green"
+              ]
+          },
+          "categories": [
+              "shoes",
+              "women",
+              "men"
+          ]
+      }
+  ]
+}
