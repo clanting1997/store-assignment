@@ -4,13 +4,13 @@ interface Props {
 function Filters({ filters }: Props) {
   return (
     <>
-      <div className="filters">
+      {/* <div className="filters">
         {filters.map((filter) => (
           <div className="filter" id={filter}>
             {filter}
           </div>
         ))}
-      </div>
+      </div> */}
     </>
   );
 }

@@ -1,17 +1,22 @@
-import './App.css';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navigation from './Navigation';
 import ProductLister from './ProductLister';
 import ProductDetail from './ProductDetail';
+import BrandLister from './BrandLister';
+import NewCollection from './NewCollection';
 
 function App() {
   return (
     <BrowserRouter>
       <Navigation />
-      <Routes>
-        <Route path="/" element={<ProductLister />} />
-        <Route path=":slug" element={<ProductDetail />} />
-      </Routes>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<ProductLister />} />
+          <Route path=":slug" element={<ProductDetail />} />
+          <Route path="brand/:slug" element={<BrandLister />} />
+          <Route path="/new" element={<NewCollection />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }

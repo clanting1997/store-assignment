@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 interface Props {
@@ -18,16 +17,16 @@ interface Props {
 }
 
 function ProductListerProduct({ product }: Props) {
-  // const [selectedIndex, setSelectedIndex] = useState(-1);
-
   return (
     <>
       <Link
-        to={product.brand
-          .toLowerCase()
-          .replaceAll(' ', '-')
-          .concat('_')
-          .concat(product.title.toLowerCase().replaceAll(' ', '-'))}
+        to={'/'.concat(
+          product.brand
+            .toLowerCase()
+            .replaceAll(' ', '-')
+            .concat('_')
+            .concat(product.title.toLowerCase().replaceAll(' ', '-'))
+        )}
         className="product-card"
       >
         <div className="product-header">
@@ -53,7 +52,8 @@ function ProductListerProduct({ product }: Props) {
           />
         </div>
         <div className="product-content">
-          <p>{product.brand}</p>
+          <p>{product.brand}</p>{' '}
+          {/* Links inside of links are illegal. Brand is only clickable on PDP */}
           <p>
             <b>{product.title}</b>
           </p>
@@ -62,11 +62,11 @@ function ProductListerProduct({ product }: Props) {
               <>
                 <span className="old-price">{product.price}</span>
                 <span className="discounted-price">
-                  {product.discountedPrice}
+                  {product.discountedPrice.toFixed(2)}
                 </span>
               </>
             ) : (
-              <span className="price">{product.price}</span>
+              <span className="price">{product.price.toFixed(2)}</span>
             )}
           </div>
         </div>

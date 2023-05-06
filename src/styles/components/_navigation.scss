@@ -1,0 +1,102 @@
+@use '../general/variables' as *;
+
+.navigation {
+  align-items: center;
+  background-color: $primary;
+  display: flex;
+  grid-gap: 16px;
+  height: 48px;
+  justify-content: space-between;
+  left: 50%;
+  margin: 0 auto;
+  max-width: 1040px;
+  overflow-y:scroll;
+  padding: 0 16px;
+  position: fixed;
+  scrollbar-width: none;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index:1;
+  -ms-overflow-style: none;
+
+  @media($md) {
+    grid-gap: 32px;
+  }
+
+  @media($lg) {
+    background-color: $white;
+    height: 64px;
+  }
+
+  a {
+    align-items: center;
+    box-sizing: border-box;
+    color: $black;
+    display: flex;
+    font-weight: $f-bold;
+    height: 100%;
+    text-transform: uppercase;
+    transition: border-bottom .3s ease-in-out;
+    white-space: nowrap;
+
+    &:hover, &.active {
+      border-bottom: 3px solid $white;
+      color: $white;
+      padding-top: 3px;
+      font-weight: $f-bold;
+
+    @media($lg) {
+      border-bottom: 3px solid $primary;
+      color: $primary;
+      }
+    }
+  }
+
+  .navigation-links, .navigation-ctas {
+    height: 100%;
+  }
+
+  .navigation-links {
+    display: flex;
+    grid-gap: 16px;
+    padding-left: 8px;
+
+    @media($md) {
+      grid-gap: 32px;
+      padding-left: 20px;
+    }
+
+    @media($lg) {
+      padding-left: unset;
+    }
+  }
+
+  .navigation-ctas {
+    font-size: 12px;
+    padding-right: 8px;
+
+    @media($md) {
+      padding-right: 20px;
+    }
+
+    @media($lg) {
+      padding-left: unset;
+    }
+
+    a {
+      display: flex;
+      flex-direction: column;
+      grid-gap: 8px;
+      justify-content: center;
+
+      svg {
+        fill: $white;
+
+        @media($lg) {
+          fill: $primary;
+        }
+      }
+    }
+  }
+}
