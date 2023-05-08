@@ -27,6 +27,7 @@
   @media($lg) {
     background-color: $white;
     height: 64px;
+    overflow: visible;
   }
 
   a {
@@ -37,7 +38,6 @@
     font-weight: $f-bold;
     height: 100%;
     text-transform: uppercase;
-    transition: border-bottom .3s ease-in-out;
     white-space: nowrap;
 
     &:hover, &.active {
@@ -49,6 +49,20 @@
     @media($lg) {
       border-bottom: 3px solid $primary;
       color: $primary;
+      position:relative;
+
+      &:after {
+        background-color: $primary;
+        bottom: -6px;
+        content: '';
+        display: block;
+        height: 4px;
+        left: 50%;
+        position: absolute;
+        width: 4px;
+        transform: rotate(45deg) translateX(-50%);
+        z-index: 2;
+      }
       }
     }
   }

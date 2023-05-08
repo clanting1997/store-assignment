@@ -1,5 +1,4 @@
 import * as data from '../src/products.json';
-import Filters from './Filters';
 import ProductListerProduct from './ProductListerProduct';
 
 function ProductLister() {
@@ -10,7 +9,6 @@ function ProductLister() {
 
   return (
     <>
-      <Filters filters={filters} />
       <div className="card-lister">
         {data.products.map((product, i) => (
           <ProductListerProduct key={i} product={product} />
